@@ -9,18 +9,31 @@
 .section-one {
     background-color: #1F2937;
     height: 200px;
-    width: 800px;
+    width: 100%px;
 }
 
 .top {
     display: flex;
     justify-content: space-evenly;
+    align-items: center;
 }
 
 .header-logo {
     color: #F9FAF8;
-    background-color: cadetblue;
+    font-weight: bold;
+    /*background-color: cadetblue;*/
 
-    font-size: 24px;
+    font-size: 18px;
+    padding: 1rem;
     
+}
+
+.other-links {
+    color: #F9FAF8;
+    font-size: 12px;
+    /*background-color: cadetblue;*/
+
+    display: flex;
+    gap: 20px;
+    padding: 1rem;
 }
