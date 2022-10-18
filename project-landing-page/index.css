@@ -8,32 +8,65 @@
 
 .section-one {
     background-color: #1F2937;
-    height: 200px;
+    height: 400px;
     width: 100%px;
 }
 
 .top {
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-between;
     align-items: center;
 }
 
 .header-logo {
     color: #F9FAF8;
     font-weight: bold;
-    /*background-color: cadetblue;*/
-
+    background-color: cadetblue;
+    width: 50%;
+    height: 100%;
+    padding: 1em;
     font-size: 18px;
-    padding: 1rem;
+    display: flex;
+    
     
 }
 
 .other-links {
     color: #F9FAF8;
     font-size: 12px;
-    /*background-color: cadetblue;*/
+    font-weight: 100;
+    background-color: cadetblue;
+    width: 50%;
 
     display: flex;
-    gap: 20px;
-    padding: 1rem;
+    padding: 1.8em;
 }
+
+.bottom {
+    display: flex;
+    background-color: aqua;
+    height: 100%;
+    /*justify-content: space-evenly;*/
+    justify-content: space-between;
+    /*align-items: center;*/
+}
+
+.bold-text {
+    padding-top: 50px;
+    padding-left: 100px;
+    width: 50%;
+
+    display: flex;
+    
+}
+
+.image-one {
+    background-color: brown;
+    width: 50%;
+    padding-top: 50px;
+    padding-right: 100px;
+
+    display: flex;
+    flex-direction: row-reverse;
+}
+
