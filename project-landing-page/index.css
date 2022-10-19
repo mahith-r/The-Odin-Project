@@ -92,6 +92,12 @@
                     color: #F9FAF8;
                     border: 0px;                   
                 }
+                .sign-up:hover {
+                    transform: scale(1.1);
+                    transition-duration: 300ms;
+                    background-color: #F9FAF8;
+                    color: #1F2937;
+                }
 
         .q4 {            
             height: 140px;
@@ -125,7 +131,7 @@
 .section-two {
     width: 100%;
     height: 250px;
-    /*background-color: antiquewhite;*/
+    background-color: #F9FAF8;
     display: flex;
     flex-direction: column;
 }
@@ -281,11 +287,11 @@
 
 .section-three {
     background-color: #E5E7EB;
-    width: auto;
+    width: 100%;
     height: 200px;
     display: flex;
     flex-direction: column;
-    justify-content: center;   
+    justify-content: center;  
 }
 
     .quote {
@@ -311,3 +317,78 @@
         padding-right: 120px;
         
     }
+
+.section-four {
+    width: 100%;
+    height: 200px;
+    background-color: #F9FAF8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+    .blue-box {
+        background-color: #3881f6d6;
+        width: 80%;
+        height: 50%;
+        border-radius: 5px;
+        display: flex;
+
+    }
+
+        .action {
+            display: flex;
+            flex-direction: column;
+            width: 60%;
+            height: 100%;
+            /*background-color: crimson;*/
+        }
+
+            .heading {
+                /*background-color: aqua;*/
+                color: #F9FAF8;
+                width: 100%;
+                height: 50%;
+                display: flex;
+                align-items: flex-end;
+                padding-left: 20%;
+                font-weight: bolder;
+                font-size: 14px;
+            }
+
+            .body {
+                color: #F9FAF8;
+                font-size: 9px;
+                font-weight: lighter;
+                padding-left: 20%;
+                padding-top: 5px;
+                opacity: 75%;
+            }
+
+        .button {
+            /*background-color: brown;*/
+            width: 40%;
+            height: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: flex-end;
+            padding-right: 15%;
+        }
+
+            .button-two {
+                display: inline-block;
+                background-color: #3882F6;
+                border-width: 5px;
+                border-radius: 5px;
+                height: 20px;
+                width: 75px;
+                font-size: 10px;
+                color: #F9FAF8;
+                border: 0px;                   
+            }
+            .button-two:hover {
+                transform: scale(1.1);
+                transition-duration: 300ms;
+                background-color: #1F2937;
+                box-shadow: 5px #F9FAF8;
+            }
