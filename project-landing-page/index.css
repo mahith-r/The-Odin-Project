@@ -103,7 +103,7 @@
 
             .qright {
                 background-color: #1F2937;
-                width: 100px;              
+                width: 130px;              
             }
 
             .qleft {
@@ -121,23 +121,24 @@
 .section-two {
     width: 100%;
     height: 250px;
-    background-color: bisque;
+    /*background-color: antiquewhite;*/
     display: flex;
     flex-direction: column;
 }
     .s21 {
-        background-color: aqua;
+        /*background-color: aqua;*/
         height: 25%;
         width: 100%;
         padding-top: 20px;
         display: flex;
         justify-content: center;
         font-weight: bolder;
+        font-size: 18px;
     }
 
     .s22 {
         display: flex;
-        background-color: brown;
+        /*background-color: brown;*/
         width: 100%;
         height: 75%;
         justify-content: center;
@@ -147,57 +148,109 @@
     }
 
         .frames {
-            background-color: antiquewhite;
+            /*background-color: antiquewhite;*/
             height: 100%;
             width: 100%;
             display: flex;
             justify-content: center;
             padding-top: 10px;
-            gap: 20px;
-
-            box-sizing: border-box;
-            -moz-box-sizing: border-box;
-            -webkit-box-sizing: border-box;
-            border: 20px #1F2937;
+            gap: 30px;
         }
 
             .frame-one {
-                background-color: chartreuse;
-                width: 90px;
-                height: 90px;
+                /*background-color: chartreuse;*/
+                width: 120px;
+                height: 130px;
                 border-color: #3882F6;
                 border-radius: 5px;
                 display: flex;
                 flex-direction: column;
-                
-
+                justify-content: space-between;
+                align-items: center;
             }
+
+                .one-one {
+                    background-color: #3881f677;
+                    width: 100%;
+                    height: 100px;
+                    border-radius: 5px;                
+                }
+
+                .one-two {
+                    font-size: 10px;
+                    text-align: center;
+                    opacity: 80%;
+                }
 
             .frame-two {
-                background-color: chartreuse;
-                width: 90px;
-                height: 90px;
-                border: 10px #1F2937;
+                /*background-color: chartreuse;*/
+                width: 120px;
+                height: 130px;
                 border-radius: 5px;
                 display: flex;
                 flex-direction: column;
-                
+                justify-content: space-between;
+                align-items: center;              
             }
+
+                .two-one {
+                    background-color: #3881f677;
+                    width: 100%;
+                    height: 100px;
+                    border-radius: 5px;                
+                }
+                
+                .two-two {
+                    font-size: 10px;
+                    text-align: center;
+                    opacity: 80%;
+                }
 
             .frame-three {
-                background-color: chartreuse;
-                width: 90px;
-                height: 90px;
+                /*background-color: chartreuse;*/
+                width: 120px;
+                height: 130px;
                 border-radius: 5px;
                 display: flex;
                 flex-direction: column;
+                justify-content: space-between;
+                align-items: center;
             }
 
+                .three-one {
+                    background-color: #3881f677;
+                    width: 100%;
+                    height: 100px;
+                    border-radius: 5px;                
+                }
+
+                .three-two {
+                    font-size: 10px;
+                    text-align: center;
+                    opacity: 80%;
+                }
+
             .frame-four {
-                background-color: chartreuse;
-                width: 90px;
-                height: 90px;
+                /*background-color: chartreuse;*/
+                width: 120px;
+                height: 130px;
                 border-radius: 5px;
                 display: flex;
                 flex-direction: column;
+                justify-content: space-between;
+                align-items: center;
             }
+
+                .four-one {
+                    background-color: #3881f677;
+                    width: 100%;
+                    height: 100px;
+                    border-radius: 5px;                
+                }
+
+                .four-two {
+                    font-size: 10px;
+                    text-align: center;
+                    opacity: 80%;
+                }
+
