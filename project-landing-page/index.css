@@ -109,10 +109,95 @@
             .qleft {
                 color:#F9FAF8;
                 background-color: rgba(128, 138, 142, 0.577);
+                border:  #F9FAF8;
                 border-radius: 5px;              
                 width: 100%;
                 display: flex;
                 justify-content: center;
                 align-items: center;
                 font-size: 10px;               
+            }
+
+.section-two {
+    width: 100%;
+    height: 250px;
+    background-color: bisque;
+    display: flex;
+    flex-direction: column;
+}
+    .s21 {
+        background-color: aqua;
+        height: 25%;
+        width: 100%;
+        padding-top: 20px;
+        display: flex;
+        justify-content: center;
+        font-weight: bolder;
+    }
+
+    .s22 {
+        display: flex;
+        background-color: brown;
+        width: 100%;
+        height: 75%;
+        justify-content: center;
+        align-items: center;
+        
+        
+    }
+
+        .frames {
+            background-color: antiquewhite;
+            height: 100%;
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            padding-top: 10px;
+            gap: 20px;
+
+            box-sizing: border-box;
+            -moz-box-sizing: border-box;
+            -webkit-box-sizing: border-box;
+            border: 20px #1F2937;
+        }
+
+            .frame-one {
+                background-color: chartreuse;
+                width: 90px;
+                height: 90px;
+                border-color: #3882F6;
+                border-radius: 5px;
+                display: flex;
+                flex-direction: column;
+                
+
+            }
+
+            .frame-two {
+                background-color: chartreuse;
+                width: 90px;
+                height: 90px;
+                border: 10px #1F2937;
+                border-radius: 5px;
+                display: flex;
+                flex-direction: column;
+                
+            }
+
+            .frame-three {
+                background-color: chartreuse;
+                width: 90px;
+                height: 90px;
+                border-radius: 5px;
+                display: flex;
+                flex-direction: column;
+            }
+
+            .frame-four {
+                background-color: chartreuse;
+                width: 90px;
+                height: 90px;
+                border-radius: 5px;
+                display: flex;
+                flex-direction: column;
             }
