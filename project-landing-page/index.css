@@ -117,6 +117,10 @@
                 align-items: center;
                 font-size: 10px;               
             }
+            .qleft:hover {
+                transform: scale(1.1);
+                transition-duration: 300ms;
+            }
 
 .section-two {
     width: 100%;
@@ -171,15 +175,21 @@
 
                 .one-one {
                     background-color: #3881f677;
-                    width: 100%;
+                    width: 90%;
                     height: 100px;
                     border-radius: 5px;                
+                }
+                .one-one:hover {
+                    background-color: #3882F6;
+                    width: 100%;
+                    transition-duration: 300ms;
                 }
 
                 .one-two {
                     font-size: 10px;
                     text-align: center;
                     opacity: 80%;
+                    
                 }
 
             .frame-two {
@@ -195,9 +205,14 @@
 
                 .two-one {
                     background-color: #3881f677;
-                    width: 100%;
+                    width: 90%;
                     height: 100px;
                     border-radius: 5px;                
+                }
+                .two-one:hover {
+                    background-color: #3882F6;
+                    width: 100%;
+                    transition-duration: 300ms;
                 }
                 
                 .two-two {
@@ -219,9 +234,14 @@
 
                 .three-one {
                     background-color: #3881f677;
-                    width: 100%;
+                    width: 90%;
                     height: 100px;
                     border-radius: 5px;                
+                }
+                .three-one:hover {
+                    background-color: #3882F6;
+                    width: 100%;
+                    transition-duration: 300ms;
                 }
 
                 .three-two {
@@ -243,9 +263,14 @@
 
                 .four-one {
                     background-color: #3881f677;
-                    width: 100%;
+                    width: 90%;
                     height: 100px;
                     border-radius: 5px;                
+                }
+                .four-one:hover {
+                    background-color: #3882F6;
+                    width: 100%;
+                    transition-duration: 300ms;
                 }
 
                 .four-two {
@@ -254,3 +279,36 @@
                     opacity: 80%;
                 }
 
+.section-three {
+    background-color: #E5E7EB;
+    width: auto;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: 
+}
+
+    .quote {
+        /*background-color: aqua;*/
+        font-size: 18px;
+        font-style: italic;
+        font-weight: 100;
+        opacity: 70%;
+        height: 60%;
+        display: flex;
+        align-items: flex-end;
+        padding-left: 100px;
+        padding-right: 100px;
+    }
+
+    .author {
+        font-size: 12px;
+        font-weight: bolder;
+        /*background-color: crimson;*/
+        height: 40%;
+        display: flex;
+        justify-content: flex-end;
+        padding-right: 120px;
+        
+    }
