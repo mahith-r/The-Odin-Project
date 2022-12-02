@@ -1,15 +1,20 @@
-console.log("Hello World!");
+const string= "The revolution will not be televised.";
+const sgl= 'Single quotes';
+const bigmouth= 'I\'ve got no right to take my place...';
 
-let myNumber = 2;
-let txt = "";
+console.log(string);
+console.log(sgl);
+console.log(bigmouth)
 
-while (myNumber != Infinity) {
-    myNumber = myNumber * myNumber;
-    txt = txt + myNumber + "<br>";
-}
+const name = 'Chris';
+const greeting = `Hello, ${name}`;
+console.log(greeting); //"Hello, Chris"
 
-console.log (txt);
+const one = 'Hello, ';
+const two = 'how are you?';
+const joined = `${one}${two}`;
+console.log(joined);
 
-let a = 2;
-let x = 1 + (a *=2);
-console.log (x);
+
+const strings= 'strings in odin project';
+console.log(strings);
